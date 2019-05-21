@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class UsersController < ApplicationController
+class UsersController < ApplicationController # :nodoc:
   # rails 5.x
   before_action :authorize, only: %i[edit update destroy]
 
