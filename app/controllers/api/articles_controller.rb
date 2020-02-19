@@ -26,7 +26,7 @@ class Api::ArticlesController < ApiController # :nodoc:
   # GET /api/hello
   # GET /api/hell0 # defined in `routes.rb`
   def hello
-    render json: 'hello from ./app/controllers/api/articles_controller#hello'
+    render json: '{"hello", "from ./app/controllers/api/articles_controller#hello"}'
   end
 
   def empty
